@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %} Welcome to ECP Support UI {% endblock %}</h1>
+
+    <form method="POST" action="action/delete">
+   <div class="table-responsive">
+      <div align="right" style="padding:10px;">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+         {% for message in messages %}
+          <div class="alert alert-danger" role="alert">{{ message }}</div>
+         {% endfor %}
+         {% endif %}
+        {% endwith %}
+        <input type="submit" value="Can Be Deleted" class="btn btn-primary">
+        <button type="submit" formaction="action/keep"> Keep-It </button>
+        <button type="submit" formaction="action/inreview"> In-Review </button>
+      </div>
+   </div>
+
+
+    <table id="example" class="database table table-striped table-bordered" >
+    <thead>
+      <tr>
+        <th>K8s Object Type</th>
+        <th>K8s Object</th>
+        <th>Namespace</th>
+        <th>State</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      {% for staleobj in staleobjs %}
+        <tr id="{{staleobj.id}}" >
+          <td>{{ staleobj.obj_type }}</td>
+          <td>{{ staleobj.obj_value }}</td>
+          <td>{{ staleobj.namespace }}</td>
+          <td>{{ staleobj.state }}</td>
+          <td><input type="checkbox" name="mycheckbox" value="{{ staleobj.id }}" /></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </form>
+
+{% endblock %}
