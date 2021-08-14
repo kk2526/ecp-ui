@@ -1,0 +1,884 @@
+[
+    {
+        "k8s object type": "secret",
+        "k8s object": "d03-secrets-accountmove-event-stream",
+        "namespace": "default",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "miniosecret",
+        "namespace": "ims-datascience",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-geneva-genevamediatorapi",
+        "namespace": "ims-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-ims-summa-thycotic",
+        "namespace": "ims-summa",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c53-secrets-loader-apps-bpm",
+        "namespace": "production-services",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "production-services",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c144-secrets-client-acquisition-analytics-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c144-secrets-client-acquisition-benchmark-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c144-secrets-client-acquisition-configuration-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c144-secrets-client-acquisition-investment-profile-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c144-secrets-client-acquisition-proposal-generation-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c144-secrets-onboarding-event-stream",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secrets-client-acquisition-configuration-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secrets-client-acquisition-investment-profile-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secrets-client-acquisition-proposal-generation-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secrets-investment-management-entity-event-stream",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secrets-investment-management-entity-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-analytics-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-configuration-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-entity-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-investment-profile-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-presentationadmin-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-proposal-generation-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-client-acquisition-proposal-output-soa",
+        "namespace": "seione-cas",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "poc-dev-secret-oranj-account-filter",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q03-secrets-sei-master-data-services",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-kdr-audit-stream-translator-account",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-kdr-audit-stream-translator-client",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-kdr-audit-stream-translator-firm",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-kdr-audit-stream-translator-household",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-kdr-audit-stream-translator-thirdparty",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-master-data-services",
+        "namespace": "seione-dm",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c38-secrets-fees-realtime-event-stream",
+        "namespace": "seione-fees",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-fees",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-fees-domain-data-soa",
+        "namespace": "seione-fees",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-account-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-custody-account-canonical-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-end-client-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-financial-transactions-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-geneva-position-canonical-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-household-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-ims-account-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-ims-insight-account-canonical-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-insight-account-canonical-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-insight-account-domain-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-insight-end-client-domain-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-insight-household-domain-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-insight-third-party-domain-event-stream",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-positions-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-sweep-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-taxlot-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-trading-partner-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-transaction-notes-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "secrets-sei-transactions-notes-kdc-warehouse-consumer",
+        "namespace": "seione-geneva",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-goal",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-matomo",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-pme",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c141-secrets-lvts-adapter-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c141-secrets-moxy-adapter-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c141-secrets-order-processing-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c142-secrets-intraday-crd-event-stream",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c143-secrets-intraday-crd-event-stream",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c145-secrets-order-processing-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c147-secrets-fee-response-event-stream",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c147-secrets-model-profile-event-stream",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c15-secrets-portfolio-strategy-management-model-assignment-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c31-secrets-crd-adapter-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c84-secrets-sleeve-financial-event-stream",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c88-secrets-lvts-adapter-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c88-secrets-moxy-adapter-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c88-secrets-order-processing-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c88-secrets-portfolio-strategy-management-model-assignment-soa",
+        "namespace": "seione-portfolio-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c124-secrets-core-accounting-engine-trade-bidirectional-rest-web",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c124-secrets-nostro-account-domain-event-stream",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c124-secrets-position-wrapper-soa",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c124-secrets-reversal-accounting-event-stream",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c25-secrets-core-accounting-engine-event-stream",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c25-secrets-core-accounting-engine-trade-execution-event-stream",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c63-secrets-core-accounting-engine-cmar-soa",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c77-secrets-order-management-fx-rates-event-stream",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c89-secrets-core-accounting-engine-trade-settlement-unmatch-event-stream",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c90-secrets-core-accounting-engine-portfolio-accounting-holdings-soa",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c96-secrets-swp-transactions-seeder",
+        "namespace": "swp-accounting",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c124-secrets-activity-management-soa",
+        "namespace": "swp-activity-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c139-secrets-activity-management-soa",
+        "namespace": "swp-activity-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c31-secrets-activity-management-soa",
+        "namespace": "swp-activity-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c54-secrets-activity-management-soa",
+        "namespace": "swp-activity-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c68-secrets-activity-management-soa",
+        "namespace": "swp-activity-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "swp-activity-management",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "swp-apigee",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secrets-apigee-asynchsvc",
+        "namespace": "swp-apigee",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "swp-asset-data",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c124-secret-asset-price-service-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c17-secret-asset-fileload-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c17-secret-asset-matcher-event-retry-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c17-secret-asset-services-datamovement-retry-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c17-secret-asset-services-datamovement-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c17-secret-asset-services-matcher-scrub-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c17-secret-asset-services-scrub-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c83-secrets-asset-change-tracker-soa-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c85-secrets-mobile-deposit-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secret-asset-fileload-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secret-asset-intraday-price-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secret-asset-price-service-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secret-asset-services-client-position-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secret-asset-services-subscription-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secrets-asset-services-loader-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secrets-canonical-indicative-batch-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secrets-canonical-indicative-batch-retry-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-secrets-price-retry-data-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "c99-sei-asset-data-consumer",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "cg15-secret-asset-fileload-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "e05-secrets-sei-asset-svcs-cncl-invst-prod-evnt-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q02-secret-asset-intraday-price-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q03-secret-asset-intraday-price-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q03-secret-asset-price-service-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q03-secrets-sei-asset-price-data-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q03-secrets-sei-asset-svcs-cncl-invst-prod-evnt-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secret-asset-data-services-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secret-asset-fileload-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secret-asset-intraday-price-event-stream",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    },
+    {
+        "k8s object type": "secret",
+        "k8s object": "q05-secret-asset-matcher-event-soa",
+        "namespace": "swp-assets",
+        "state": "None",
+        "action": ""
+    }
+]
