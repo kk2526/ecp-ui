@@ -9,7 +9,7 @@
 
    ```Keep-It``` Temporarily not being used. [ Please email our team with appropriate reason]  
  
-![Output sample](https://github.com/kk2526/ecp-ui/raw/demo/ecp-ui.gif)
+![Output sample](https://github.com/kk2526/ecp-ui/blob/main/demo/ecp-ui.gif)
 
 ## K8s Unused Objects
 
